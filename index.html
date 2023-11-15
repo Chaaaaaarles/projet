@@ -11,9 +11,11 @@
         <div class="notificationHeader">
             <img src="dist/images/image 3.png" alt="logo de loxam">
             <div class="notificationAppelEnCours">
-                <img src="dist/images/Component 11.png" alt="telephone en attente">
+                <a type="submit" onclick="openPopup()">
+                    <img src="dist/images/Component 11.png" alt="telephone en attente">
+                </a>
             </div>
-            <div class="notificationAppel">
+            <div class="notificationAppel" >
                 <img src="dist/images/Frame 91.png" alt="appel en cours">
             </div>
         </div>
@@ -221,9 +223,12 @@
             
         </div>
     </div>
-    <div class="merde">
-        <p> c'est la merde</p>
-    </div>
+    <script>
+        let popin = document.getElementById('container');
 
+        function openPopup(){ 
+            container.classList.add("open-container")
+        }
+    </script>
 </body>
 </html>
