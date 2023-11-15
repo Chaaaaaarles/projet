@@ -575,3 +575,6 @@ header {
     border: 1px solid #ccc;
     border-radius: 12px;
 }
+.btn{
+    visibility: hidden;
+}
