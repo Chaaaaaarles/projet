@@ -93,6 +93,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     margin-right: 30px;
+    gap: 20px;
 }
 
 
@@ -366,10 +367,85 @@ header {
 .blocPriorités{
     width: 80%;
     border-radius: 12px;
-    background: #d65d5d;
     height: 934px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.25);
+
 }
+.headerPriorités{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 35px 0px 35px;
+}
+.bouttonSwitch{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 34px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    border: 4px solid #ffffff;
+    
+}
+.bouttonSwitchPriorités{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    background: #E40115;
+}
+.bouttonSwitchRoadmap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    background: #FFF;
+
+}
+.prioritésTitre{
+    width: 362px;
+    height: 100%;
+    color: #454545;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: Uber Move;
+    margin-top: -25px;
+}
+.bouttonAjouter{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    color: #000;
+    font-family: Uber Move;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 43px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    background: #FFF;
+}
+.bodyPriorités{
+    display: flex;
+
+}
+.rangement{
+
+}
+.headerRangement{
+
+}
+.bodyRangment{}
+
 
 /** popup **/
 .container{
@@ -415,4 +491,87 @@ header {
     justify-content: space-between;
     margin: 0px 15px 10px 15px;
 
+}
+
+/** Fiche client **/
+
+.blocGeneral{
+
+    width: 2072px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+/* Style pour le formulaire */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.premierBlocQuestionnaire {
+    background-color: #ffffff;
+    width: 800px;    
+    font-family: Uber Move;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #454545;
+    padding: 0px 25px 0px 25px;
+}
+.deuxiemeBlocQuestionnaire {
+    background-color:rgb(255, 255, 255);
+    width: 800px;
+    font-family: Uber Move;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #454545;
+    padding: 0px 25px 0px 25px;
+    gap: 10px;
+    background-image: url(../images/🦆copy_.png);
+    background-repeat: no-repeat;
+    background-position: top 34px right 740px;
+}
+
+/* Style pour les rectangles */
+.rectangle {
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding: -110px;
+    width: 800px;
+    height: 70px;
+    flex-shrink: 0;
+    display: flex;  
+    justify-content:
+
+}
+.label{
+    width: 460px;
+    display: flex;
+    align-items: center;
+}
+.input{
+    border-radius: 88px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    background: #FFF;
+
+
+}
+
+/* Style pour les labels */
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style pour les champs de saisie */
+.input[type="text"], input[type="email"], input[type="tel"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
 }

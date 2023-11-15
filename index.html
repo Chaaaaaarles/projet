@@ -9,7 +9,9 @@
 <body>
     <header>
         <div class="notificationHeader">
-            <img src="dist/images/image 3.png" alt="logo de loxam">
+            <a src="index.html">
+                <img src="dist/images/image 3.png" alt="logo de loxam" href="index.html" >
+            </a>
             <div class="notificationAppelEnCours">
                 <a type="submit" onclick="openPopup()">
                     <img src="dist/images/Component 11.png" alt="telephone en attente">
@@ -213,22 +215,17 @@
                 Appel entrant<br /><br />+33 06 67 87 98 23<br /><br />Demande : cherche une location<br /><br />En attente : 2<br />
             </p>
             <div class="images">
-                <a href="priorité.html" class="bouttonFicheClient" src"">
+                <a href="ficheClient.html" class="bouttonFicheClient" src"">
                     <img src="dist/images/decrocher.png">
                 </a>
-                <a href="priorité.html" class="bouttonFicheClient" src"">
+                <a href="index.html" class="bouttonFicheClient" src"">
                     <img src="dist/images/racrocher.png">
                 </a>
             </div>
             
         </div>
     </div>
-    <script>
-        let popin = document.getElementById('container');
+    <script src="dist/scripts/popup.js"></script>
 
-        function openPopup(){ 
-            container.classList.add("open-container")
-        }
-    </script>
 </body>
 </html>
