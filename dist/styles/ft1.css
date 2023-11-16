@@ -368,9 +368,10 @@ header {
     width: 80%;
     border-radius: 12px;
     height: 934px;
-    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.25);
-
+    box-shadow: 0px 0px 10px 0px rgba(58, 57, 57, 0.25);
+    background-color: #ffffff;
 }
+
 .headerPriorités{
     display: flex;
     justify-content: space-between;
@@ -408,8 +409,19 @@ header {
     background: #FFF;
 
 }
+.imageObjectif{
+    height: 830px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    background-image: url(../images/objectif.png);
+    background-repeat: no-repeat;
+    background-position: top 6px right 0px;
+    background-size: 100%;
+    border-radius: 24px;    
+}
 .prioritésTitre{
-    width: 362px;
+    width: 420px;
     height: 100%;
     color: #454545;
     font-size: 40px;
@@ -436,15 +448,72 @@ header {
 }
 .bodyPriorités{
     display: flex;
+}
+
+.rangement1{
 
 }
-.rangement{
+.rangement2{
 
 }
-.headerRangement{
+.rangement3{
 
 }
-.bodyRangment{}
+.rangement4{
+
+
+}
+/** sous partis**/
+.headerRangement1{
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
+    width: 451px;
+    height: 100px;
+    color: #454545;
+    font-family: Uber Move;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.bodyRangment1{
+    border-right: 3px solid #000;
+    width: 451px;
+    height: 715px;
+}
+.headerRangement2{
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
+    width: 451px;
+    height: 100px;
+}
+.bodyRangment2{
+    border-right: 3px solid #000;
+    width: 451px;
+    height: 715px;
+}
+.headerRangement3{
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
+    width: 451px;
+    height: 100px;
+}
+.bodyRangment3{
+    border-right: 3px solid #000;
+    width: 451px;
+    height: 715px;
+}
+.headerRangement4{
+    border-bottom: 3px solid #000;
+    width: 451px;
+    height: 100px;
+}
+.bodyRangment4{
+    width: 451px;
+    height: 715px;
+}
+
 
 
 /** popup **/
